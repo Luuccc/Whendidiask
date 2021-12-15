@@ -21,12 +21,16 @@ body  {
 	font-size: 2vw;
 	color: #f97979;
 }
-.side {
+.leftside {
 	float: left;
 	width: 20%;
 }
+.rightside {
+	float: right;
+	width: 20%;
+}
 .main {
-	float: left;
+	display: inline-block;
 	width: 60%;
 }
 /* Clear floats after the columns */
